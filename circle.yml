@@ -1,0 +1,13 @@
+machine:
+  node:
+    version: 6.1.0
+
+dependencies:
+  cache_directories:
+    - ~/.meteor
+  override:
+    - meteor || curl https://install.meteor.com | /bin/sh
+
+compile:
+  override:
+    - npm run-script lint
