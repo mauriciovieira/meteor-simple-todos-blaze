@@ -1,6 +1,5 @@
 env:
   browser: true
-  meteor: true
 extends:
   - 'airbnb-base'
   - 'plugin:meteor/recommended'
