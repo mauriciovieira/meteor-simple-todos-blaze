@@ -15,7 +15,7 @@ Template.hello.helpers({
 });
 
 Template.hello.events({
-  'click button': function (event, templateInstance) {
+  'click button' (event, templateInstance) {
     // increment the counter when button is clicked
     templateInstance.counter.set(templateInstance.counter.get() + 1);
   },
